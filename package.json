@@ -1,5 +1,5 @@
 {
-  "name": "angularjs-cli",
+  "name": "@vies/angularjs-cli",
   "version": "0.0.1",
   "description": "AngularJS CLI",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "bin": {
     "ng1": "./index.js"
   },
-  "author": "",
+  "author": "ViES <vies@list.ru>",
   "license": "MIT",
   "dependencies": {
     "case": "^1.5.5",
