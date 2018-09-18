@@ -8,8 +8,8 @@ const path = require('path');
 const mkdirp = require('mkdirp');
 const Case = require('case');
 
-const OUTPUT_DIR = '.';
-const SCHEMAS_DIR = `../schematics`;
+const OUTPUT_DIR = process.cwd();
+const SCHEMAS_DIR = `${__dirname}/../schematics`;
 
 const config = {
 
