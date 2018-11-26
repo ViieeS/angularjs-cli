@@ -3,6 +3,6 @@
 /**
  * @constructor
  */
-export function __EXPORT_NAME__() {
+export function __EXPORT_NAME__Service() {
 
 }
