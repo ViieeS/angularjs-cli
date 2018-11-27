@@ -7,28 +7,10 @@ const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const Case = require('case');
+const config = require('../angularjs-cli.config');
 
 const OUTPUT_DIR = process.cwd();
 const SCHEMAS_DIR = `${__dirname}/../schematics`;
-
-const config = {
-
-    js: {export_name_case: 'pascal'},
-
-    css: {export_name_case: 'kebab'},
-
-    get es6() {
-        return this.js;
-    },
-
-    get scss() {
-        return this.css;
-    },
-
-    get html() {
-        return this.css;
-    }
-};
 
 const resolveExportName = (rawName, ext) => {
     const caseType = config[ext].export_name_case;
