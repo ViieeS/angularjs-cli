@@ -8,6 +8,7 @@ const commands = require('./commands');
 const parse = ([command, ...rest]) => {
 
     switch (command) {
+        case 'g':
         case 'generate': {
             const [schema, name] = rest;
             return commands.generate(schema, name);
