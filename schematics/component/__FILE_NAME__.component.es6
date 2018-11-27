@@ -2,10 +2,10 @@
 
 export default {
     bindings: {},
-    controller: function () {
-        const self = this;
+    controller() {
+        const $ctrl = this;
 
-        self.$onInit = () => {
+        $ctrl.$onInit = () => {
 
         };
     },
