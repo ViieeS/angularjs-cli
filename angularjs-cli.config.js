@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 
     js: {export_name_case: 'pascal'},
 
